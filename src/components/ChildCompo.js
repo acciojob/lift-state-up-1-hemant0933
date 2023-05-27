@@ -9,7 +9,7 @@ const ChildCompo = (props) => {
        Child Component
       </h2><br/>
       <button onClick={props.handleClick} >Show Model</button>
-      {props.showModal && <Modal />}
+      {props.showModal == true ?  <Modal /> : ""}
     </div>
   );
 }

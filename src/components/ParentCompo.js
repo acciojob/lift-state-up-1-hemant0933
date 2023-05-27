@@ -5,6 +5,7 @@ const ParentCompo = () => {
   const [showModal, setModal] = useState(false);
 
   const handleClick = () => {
+    
     setModal(true);
   };
   return (
