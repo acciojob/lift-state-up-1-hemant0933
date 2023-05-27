@@ -5,9 +5,9 @@ const ChildCompo = (props) => {
 
   return (
     <div className='childDiv'>
-      <h3>
+      <h2>
        Child Component
-      </h3><br/>
+      </h2><br/>
       <button onClick={props.handleClick} >Show Model</button>
       {props.showModal && <Modal />}
     </div>

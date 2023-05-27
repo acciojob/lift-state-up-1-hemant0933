@@ -8,8 +8,8 @@ const ParentCompo = () => {
     setModal(true);
   };
   return (
-    <div className="parentDiv">
-      <h2>Parent Component</h2><br/><br/>
+    <div className="parent">
+      <h1>Parent Component</h1><br/><br/>
       <ChildCompo showModal={showModal} handleClick={handleClick} />
     </div>
   );
